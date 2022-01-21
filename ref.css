@@ -1,0 +1,49 @@
+#conteneur {
+		
+		width: 1000px;
+		height: 2000px;
+		border:  20px solid #850303;
+		border-radius: 27px ;
+		margin-top: 30px;
+		margin-left: auto;
+		
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	input{
+		font-size: 20px;
+	}
+	form{
+	
+		margin-left: 300px;
+		font-size: 27px;
+		
+		
+		
+	}
+	h1{
+		margin-left: 20px;
+		
+		font-family: georgia;
+	}
+	th{
+		color: white;
+		font-size: 20px;
+		font-family: georgia;
+	}
+	td{
+		
+		font-size: 20px;
+		font-family: georgia;
+	}
+	#input{ width: 100px;
+	height: 40px;
+		font-size: 24px;
+		border-radius: 15px ;
+		background-color: green;
+		color: white;
+		margin-left: 40px;
+		font-family: georgia;
+	}

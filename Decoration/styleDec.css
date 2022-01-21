@@ -1,0 +1,838 @@
+ body{
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		font-family: Arial;
+		margin: 0px;
+		padding: 0px;
+	}
+	
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 1400px;
+		height: 1500px;
+		border: 1px solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+	}
+	#anu{display: block;
+	width: 100px;
+	height: 40px;
+	
+	
+	
+	background-image: url("../im/sup.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	font-size: 0px;
+	-webkit-transition: all 0.7s ease-out 0s;
+	-moz-transition: all 0.7s ease-out 0s;
+	transition: all 0.7s ease-out 0s;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	
+	margin-left: 10px;
+	
+}
+	
+
+	ul::after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+
+
+	 ul{
+		margin: 0px;
+		padding: 0px;
+	}
+	 li{
+		list-style-type: none;
+	}
+	
+	ul li{
+		float: left;
+		position: relative;
+		border-left: 1px solid white;
+		
+	}
+	header{ height: 150px;
+			width: 1400px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 0px;
+		margin-top: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+	
+	#gauche{
+	display: inline;
+	height: 837px;
+	border-top: 0px;
+	width: 600px;
+	margin-top: 40px;
+	position: relative;
+	float: left;
+ 
+}
+#im{
+	width: 1400px;
+}
+#droite{
+	
+	height: 837px;
+	width: 600px;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	display: inline;
+}
+	
+	input{
+	width: 200px;
+	margin: 0px 0px 10px 20px;
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid #gray;
+	color: white;
+	background: transparent;
+	border-radius: 10px;
+}
+td{
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+	
+}
+#a3{
+		font-size: 20px;
+		color: white;
+		margin-left: 5px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a4{
+		font-size: 20px;
+		color: white;
+		margin-left: 0px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a1{
+		font-size: 20px;
+		color: white;
+		margin-left: 550px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 0px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a5{
+		font-size: 20px;
+		color: white;
+		margin-left: 200px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a6{
+		font-size: 20px;
+		color: white;
+		margin-left: 0px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+select{
+	font-size: 17px;
+	margin-left: 0px;
+}
+
+.btn{display: block;
+	width: 140px;
+	height: 40px;
+	border-radius: 11px;
+	border: 3px solid gray;
+	background-image: url("../im/bl.jpg");
+	background-repeat: no-repeat;
+	background-size: 140px;
+	font-size: 17px;
+	-webkit-transition: all 0.7s ease-out 0s;
+	-moz-transition: all 0.7s ease-out 0s;
+	transition: all 0.7s ease-out 0s;
+	font-weight: bold;
+	text-align: center;
+	color: white; 
+	border-radius: 11px;
+	margin-top: 30px;
+	
+}
+
+.btn:hover{
+	background-image: url("enr.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-color: #850303;
+	padding-left: 20px;
+	border-radius: 11px;
+	border: 3px solid #850303;
+}
+#tp{
+	background-image: url("tph.png");
+	background-repeat: no-repeat;
+	background-size: 35px;
+	padding: 10px;
+}
+.tab{
+	margin-top: 150px;
+}
+
+	#p{
+	font-size: 50px;
+}
+.pt{font-family:Georgia, Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 35px;
+	color: #0ab7c5;
+	
+margin-left: 200px;	
+}
+#form2{ height: 436px;
+	border: 1px solid #0ab7c5;
+	margin-top: 40px;
+}
+
+@media all and (max-width: 480px ){
+		body{
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 200px;
+		height: 800px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 200px;
+}
+	header{ height: 150px;
+	width: 200px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+	#gauche{
+	display: inline;
+	height: 837px;
+	border-top: 0px;
+	width: 90px;
+	margin-top: 40px;
+	position: relative;
+	float: left;
+ 
+}
+#deco{
+	width: 20px;
+	height: 20px;
+}
+#droite{
+	
+	height: 837px;
+	width: 90px;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	display: inline;
+}
+	table {
+		display:flex;
+		margin-bottom: 5px;
+	}
+	.btn{
+		width:85px;
+		font-size: 12px;
+	}
+	
+	tr, td, input{
+		border-radius: 0px;
+		display: bloc;
+		width: 100px;
+		height: 25px;
+			font-size: 12px;
+		  
+	}
+	#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 5px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+	#a5{
+		font-size: 20px;
+		color: white;
+		margin-left: 5px!important;
+		margin-top: 0px;
+		font-weight: bold;
+}
+#a3{
+		font-size: 20px;
+		color: white;
+		margin-left: 5px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+.pt{font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 25px;
+	color: white;
+	margin-bottom: 5px;
+margin-left: 70px;	
+}
+#pt2{
+	font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	margin-left: 70px;
+	font-size: 25px;
+	color: white;
+	
+}
+
+}
+
+
+
+@media (min-width:481px) and (max-width: 780px){
+		body{
+		background-image: url("../im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,white,#850303);
+		width: 700px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 700px;
+}
+	header{ height: 150px;
+	width: 700px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+		#gauche{
+	display: inline;
+	height: 800px;
+	border-top: 0px;
+	width: 250px;
+	margin-top: 40px;
+	position: relative;
+	float: left;
+ 
+}
+#deco{
+	width: 90px;
+	
+}
+#droite{
+	
+	height: 800px;
+	width: 250px;
+	position: relative;
+	float: right;
+	margin-top: 40px;
+	display: inline;
+}
+	table {
+		display:flex;
+		margin-bottom: 5px;
+	}
+	.btn{
+		width:85px;
+		font-size: 12px;
+	}
+	
+	tr, td, input{
+		border-radius: 0px;
+		display: bloc;
+		width: 100px;
+		height: 23px;
+			font-size: 15px;
+		  
+	}
+	#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+	#a5{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px!important;
+		margin-top: 0px;
+		font-weight: bold;
+}
+#a3{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+.pt{font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 35px;
+	color: white;
+	margin-bottom: 5px;
+margin-left: 100px;	
+}
+#pt2{
+	font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	margin-left: 100px;
+	font-size: 35px;
+	color: white;
+	
+}
+
+
+}
+	@media (min-width:781px) and (max-width: 979px){
+		body{
+		background-image: url("../im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 750px;
+		height: 800px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 750px;
+}
+	header{ height: 150px;
+	width: 750px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+	#gauche{
+		display: inline;
+		border-top: 0px;
+		position: relative;
+		width: 300px;
+		border: 0px solid #0ab7c5;
+	 float: left;
+	 
+	
+	}
+	#droite{		
+		position: relative;
+	 float: right;
+	 display: inline;
+	 width: 300px;
+		border: 0px solid #0ab7c5;
+	 
+	}
+	table {
+		display:flex;
+		margin-bottom: 5px;
+	}
+	.btn{
+		width:85px;
+		font-size: 12px;
+	}
+	
+	tr, td, input{
+		border-radius: 0px;
+		display: bloc;
+		width: 120px;
+		height: 30px;
+			font-size: 17px;
+		  
+	}
+	#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+	#a5{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px!important;
+		margin-top: 0px;
+		font-weight: bold;
+}
+#a3{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+.pt{font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 35px;
+	color: white;
+	margin-bottom: 5px;
+margin-left: 100px;	
+}
+#pt2{
+	font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	margin-left: 100px;
+	font-size: 35px;
+	color: white;
+	
+}
+
+
+}
+
+@media (min-width:980px) and (max-width: 1100px){
+		body{
+		background-image: url("../im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 950px;
+		height: 800px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 950px;
+}
+	header{ height: 150px;
+	width: 950px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+	#gauche{
+		display: inline;
+		border-top: 0px;
+		position: relative;
+		width: 400px;
+		border: 0px solid #0ab7c5;
+	 float: left;
+	 
+	
+	}
+	#droite{		
+		position: relative;
+	 float: right;
+	 display: inline;
+	 width: 400px;
+		border: 0px solid #0ab7c5;
+	 
+	}
+	table {
+		display:flex;
+		margin-bottom: 5px;
+	}
+	.btn{
+		width:87px;
+		font-size: 14px;
+	}
+	
+	tr, td, input{
+		border-radius: 0px;
+		display: bloc;
+		width: 130px;
+		height: 30px;
+			font-size: 17px;
+		  
+	}
+	#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+	#a5{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px!important;
+		margin-top: 0px;
+		font-weight: bold;
+}
+#a3{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+.pt{font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 40px;
+	color: white;
+	margin-bottom: 5px;
+margin-left: 100px;	
+}
+#pt2{
+	font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	margin-left: 100px;
+	font-size: 40px;
+	color: white;
+	
+}
+
+
+}
+@media (min-width:1101px) and (max-width: 1400px){
+		body{
+		background-image: url("../im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 1100px;
+		height: 800px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 1100px;
+}
+	header{ height: 150px;
+	width: 1100px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+	#gauche{
+		display: inline;
+		border-top: 0px;
+		position: relative;
+		width: 500px;
+		border: 0px solid #0ab7c5;
+	 float: left;
+	 
+	
+	}
+	#droite{		
+		position: relative;
+	 float: right;
+	 display: inline;
+	 width: 500px;
+		border: 0px solid #0ab7c5;
+	 
+	}
+	table {
+		display:flex;
+		margin-bottom: 5px;
+	}
+	
+	
+	tr, td, input{
+		border-radius: 0px;
+		display: bloc;
+		width: 150px;
+		height: 25px;
+			font-size: 17px;
+		  
+	}
+	#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+	#a5{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px!important;
+		margin-top: 0px;
+		font-weight: bold;
+}
+#a3{
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+.pt{font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 45px;
+	color: white;
+	margin-bottom: 5px;
+margin-left: 100px;	
+}
+#pt2{
+	font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	margin-left: 100px;
+	font-size: 45px;
+	color: white;
+	
+}
+
+
+}
+

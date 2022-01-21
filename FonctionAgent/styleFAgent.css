@@ -1,0 +1,16 @@
+body{
+background-image:linear-gradient(to left,#990000,#ffffff);
+font-family:Arial black;
+color:black;
+font-size:20px;
+height:100%;
+margin:100px;
+width:auto;
+}
+input{
+border:4px,solid,#660000;
+font-family:Arial black;
+}
+p{
+font-family:Arial;
+}

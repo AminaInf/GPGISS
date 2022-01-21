@@ -1,0 +1,38 @@
+ 
+ body{
+		font-family: Arial;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 900px;
+		height: 500px;
+		border: 1px solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+	}
+	
+input{
+	width: 200px;
+	margin: 0px 0px 10px 20px;
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid #gray;
+	color: white;
+	background: transparent;
+	border-radius: 10px;
+}
+td{
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+	
+}
+h1{color: white;
+	font-family: georgia;
+}

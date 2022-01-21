@@ -1,0 +1,165 @@
+body{
+		background-image: linear-gradient(to right,#850303,#0ab7c5);
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	input{
+	width: 200px;
+	height: 30px;
+	margin: 0px 0px 10px 20px;
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid gray;
+	color: white;
+	background: transparent;
+	border-radius: 10px;
+}
+#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 1000px;
+		height: 2000px;
+		border: 1px solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+form{
+	margin-top: 100px;
+}
+td{
+	font-size: 19px;
+	font-weight: bolder;
+	
+}
+a{
+		font-size: 20px;
+		color: white;
+		margin-left: 150px;
+		margin-top: 5px;
+		font-weight: bolder;
+}
+#btn{display: block;
+	width: 140px;
+	height: 40px;
+	border-radius: 11px;
+	border: 3px solid gray;
+	background-image: url("bl.jpg");
+	background-repeat: no-repeat;
+	background-size: 140px;
+	
+	-webkit-transition: all 0.7s ease-out 0s;
+	-moz-transition: all 0.7s ease-out 0s;
+	transition: all 0.7s ease-out 0s;
+	font-weight: bold;
+	text-align: center;
+	color: white; 
+	border-radius: 11px;
+	
+}
+#btn:hover{
+	background-image: url("enr.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-color: #850303;
+	padding-left: 20px;
+	border-radius: 11px;
+	border: 3px solid #850303;
+}
+.tab{
+	margin-top: 50px;
+}
+#p{
+	font-size: 50px;
+}
+#p2{
+	font-size: 50px;
+}
+.formu {
+	padding: 10px;
+	margin-left: 40px;
+}
+
+
+@media screen and (max-width:800px){
+		body{
+		background-image: url("../im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 700px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+}
+table {
+		display:flex;
+	}
+	thead {
+		width:20%;
+		min-width:90px;
+	}
+	tbody {
+		flex:1;
+	}
+	tr {
+		display:flex;
+		flex-direction:column;
+	}
+	th, td {
+		text-align:left;
+		border-right:0;
+		border-bottom:1px solid black;
+	}
+	tr:last-child td:last-child {
+		border-bottom:0;
+	}
+	tbody tr:not(:first-child) td::before {
+		position:absolute;
+		content:'Pseudo';
+		color:white;
+		font-weight:bold;
+		width:calc(20% - 13px);
+		min-width:90px;
+		padding:5px;
+		border-bottom:1px solid black;
+		margin-left:calc(-20% - 2px);
+		margin-top:-5px;
+	}
+	tbody tr:last-child td:last-child::before {
+		border-bottom:0;
+	}
+	tbody tr:not(:first-child) td:nth-of-type(2)::before {
+		content:'Age';
+	}
+	tbody tr:not(:first-child) td:nth-of-type(3)::before {
+		content:'Classement';
+	}
+	#p{
+	font-size: 20px;
+}
+}
+@media screen and (max-width:461px) {
+	tbody tr:not(:first-child) td::before {
+		margin-left:-95px;
+	}
+	#p{
+	font-size: 15px;
+}
+}

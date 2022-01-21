@@ -1,0 +1,43 @@
+   body{
+		
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: url("./im/bl.jpg");
+		background-repeat: no-repeat;
+		background-size: 1100px 600px;
+		background-attachment: fixed;
+		width: 600px;
+		height: 440px;
+		border: 50px solid #850303;
+		border-radius: 15px ;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	a{
+		color: white;
+		font-size: 27px;
+		font-weight: bold;
+	}
+	#g{ float: left;
+		margin-left: 50px;
+	}
+	#d{
+		margin-right: 50px;
+		float: right;
+		
+	}
+	h2{
+		width: 155px;
+		padding: 5px;
+		background-color: white;
+		font-size: 25px;
+		font-family: georgia;
+		border-radius: 15px ;
+	}

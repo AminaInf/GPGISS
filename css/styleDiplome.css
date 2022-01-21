@@ -1,0 +1,104 @@
+body{
+		font-family: Arial;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 1400px;
+		height: 1000px;
+		border: 1px solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 10px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+	}
+	
+input{
+	width: 200px;
+	margin: 0px 0px 10px 20px;
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid #gray;
+	color: white;
+	background: transparent;
+	border-radius: 10px;
+}
+td{
+	font-size: 20px;
+	font-weight: bolder;
+	color: black;
+	
+}
+#a1{
+		font-size: 20px;
+		color: #0ab7c5;
+		margin-left: 200px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a2{
+		font-size: 20px;
+		color: #0ab7c5;
+		margin-left: 5px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a3{
+		font-size: 20px;
+		margin-left: 200px;
+		margin-top: 20px;
+		font-weight: bold;
+		color: #0ab7c5;
+}
+#a4{
+		font-size: 20px;
+		margin-left: 5px;
+		margin-top: 20px;
+		font-weight: bold;
+}
+#a5{
+		font-size: 20px;
+		color: #0ab7c5;
+		margin-left: 5px;
+		margin-top: 20px;
+		font-weight: bold;
+}
+.btn{display: block;
+	width: 130px;
+	height: 40px;
+	border-radius: 11px;
+	border: 3px solid gray;
+	background-image: url("../im/bl.jpg");
+	background-repeat: no-repeat;
+	background-size: 140px;
+	font-size: 17px;
+	-webkit-transition: all 0.7s ease-out 0s;
+	-moz-transition: all 0.7s ease-out 0s;
+	transition: all 0.7s ease-out 0s;
+	font-weight: bold;
+	text-align: center;
+	color: black; 
+	border-radius: 11px;
+	margin-top: 30px;
+	
+}
+
+.btn:hover{
+	background-image: url("enr.png");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-color: #850303;
+	padding-left: 20px;
+	border-radius: 11px;
+	border: 3px solid #850303;
+}
+#liste{
+	margin-top: 40px;
+}
+.pt{font-family: Rosewood Std, Britannic Bold, Blackoak Std, Goudy Stout;
+	font-size: 35px;
+	color: black;
+}

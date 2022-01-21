@@ -1,0 +1,18 @@
+body{
+background-image:linear-gradient(to right,#339999,#ffffff);
+font-family:Arial black;
+color:black;
+font-size:20px;
+height:100%;
+margin:100px;
+width:auto;
+}
+p{
+font-family:Arial;
+}
+a{
+font-family:Arial black;
+color:black;
+font-size:20px;
+border:2px solid #ffffff;
+}

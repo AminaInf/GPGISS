@@ -1,0 +1,306 @@
+body{
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+input{
+	width: 200px;
+	margin: 0px 0px 10px 20px;
+	padding: 10px;
+	font-size: 17px;
+	border: 2px solid white;
+	color: black;
+	font-weight: bolder;
+	background: transparent;
+	border-radius: 10px;
+}
+td{
+	font-size: 20px;
+	font-weight: bolder;
+	
+}
+a{
+		font-size: 20px;
+		color: white;
+		margin-left: 150px;
+		font-weight: bolder;
+}
+select{
+	font-size: 20px;
+	margin-left: 0px;
+}
+#btn{display: block;
+	width: 100px;
+	-webkit-transition: all 0.7s ease-out 0s;
+	-moz-transition: all 0.7s ease-out 0s;
+	transition: all 0.7s ease-out 0s;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+}
+#bn:hover{
+	border-radius: 11px;
+	border-color: #0ab7c5;
+	border: 2px solid;
+}
+#im{
+	width: 1400px;
+}
+@media all and (max-width: 480px ){
+		body{
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 200px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 200px;
+}
+	header{ height: 150px;
+	width: 200px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+}
+
+@media (min-width:481px) and (max-width: 780px){
+		body{
+		background-image: url("./im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 600px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 600px;
+}
+	header{ height: 150px;
+	width: 600px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+}
+	@media (min-width:781px) and (max-width: 979px){
+		body{
+		background-image: url("./im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 750px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 750px;
+}
+	header{ height: 150px;
+	width: 750px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+}
+
+@media (min-width:980px) and (max-width: 1100px){
+		body{
+		background-image: url("./im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 950px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 950px;
+}
+	header{ height: 150px;
+	width: 950px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+}
+@media (min-width:1101px) and (max-width: 1400px){
+		body{
+		background-image: url("./im/fon8.jpg");
+		background-repeat: no-repeat;
+		background-size: 2000px;
+		background-attachment: fixed;
+		font-family: Calibri;
+		margin: 0px;
+		padding: 0px;
+	}
+	#conteneur {
+		background-image: linear-gradient(to right,#850303,#0ab7c5,#850303);
+		width: 1100px;
+		height: 2000px;
+		border: solid #850303;
+		border-radius: 5px 5px 5px 5px;
+		margin-top: 30px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0px;
+		
+		
+	}
+	#im{
+	width: 1100px;
+}
+	header{ height: 150px;
+	width: 1100px;
+		background-color: #850303;
+		padding-left: 0px;
+		padding-bottom: 5px;
+		padding-right: 0px;
+		padding-top: 5px;
+		margin-top: 0px;
+		border: 20px;
+		border-radius: 5px;
+		text-align: center;
+
+	}
+		nav  > ul > li > a{
+		padding: 10px 20px;
+		color: #850303;
+		font-size: 15px;
+		font-weight: bold;
+	}
+	nav > ul > li:hover a{
+		padding: 15px 30px 20px 30px;
+		color: white;
+		font-size: 15px;
+	}
+}

@@ -1,0 +1,62 @@
+body{
+background-image: linear-gradient(to right,#850303,#0ab7c5);
+font-family:Arial black;
+
+
+}
+th{color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+h1{color: white;
+	font-size: 35px;
+	font-weight: bold;
+	font-family:georgia;
+	
+}
+td{background-color: white;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+
+select{
+	font-size: 17px;
+	color: black;
+	margin-left: 0px;
+}
+input{
+	width: 200px;
+	height: 20px;
+	margin: 0px 0px 0px 0px;
+	padding: 5px;
+	font-size: 15px;
+	border: 2px solid #gray;
+	color: black;
+	background: transparent;
+	border-radius: 5px;
+}
+a{
+	font-size: 20px;
+
+	margin-left: 150px;
+}
+
+	#p{
+	font-size: 40px;
+}
+#a1{
+		font-size: 20px;
+		color: white;
+		margin-left: 350px;
+		margin-top: 5px;
+		font-weight: bold;
+}
+#a2{
+		font-size: 20px;
+		color: white;
+		margin-left: 5px;
+		margin-top: 5px;
+		font-weight: bold;
+}
